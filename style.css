@@ -28,7 +28,8 @@ body{
 }
 
 .profile{
-    width: 120px;
+    margin-top: 5px;
+    width: 110px;
     background: linear-gradient(to right, #5579ba, #41a377);
     border-radius: 50%;
 }
@@ -48,19 +49,26 @@ a{
 
 li{
     background: linear-gradient(to right, #5579ba, #41a377);
-    border-radius: 2em;
+   
     font-size: 1.2em;
-    
+    border-radius: 2em;
     height: 4em;
     display: flex;
 }
 
 li a{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
     padding: 0 45px;
+    transition: 200ms ease all;
+}
+
+li a:hover{
+    background-color: #5579ba;
+    border-radius: 2em;
 }
 
 ul{
@@ -78,5 +86,25 @@ ul img {
 }
 
 footer img{
-    width: 50px;
+    width: 35px;
+}
+
+footer{
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    padding: 1rem;
+}
+
+footer a {
+    background: linear-gradient(to right, #5579ba, #41a377);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 815px) {
+    
 }
