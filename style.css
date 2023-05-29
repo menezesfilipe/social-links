@@ -42,11 +42,39 @@ p{
     font-size: 1em;
     color: #919193;
 }
+a{
+    color: white;
+}
+
+li{
+    background: linear-gradient(to right, #5579ba, #41a377);
+    border-radius: 2em;
+    font-size: 1.2em;
+    
+    height: 4em;
+    display: flex;
+}
+
+li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 45px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    gap: 1.5em;
+}
+
 
 
 
 ul img {
-    width: 50px;
+    width: 35px;
 }
 
 footer img{
